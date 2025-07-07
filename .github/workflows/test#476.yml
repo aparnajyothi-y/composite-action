@@ -7,5 +7,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+      - run: cat requirements.txt
       - name: Set up Node.js
         uses: aparnajyothi-y/composite-action-test@main
+      - run: cat requirements.txt
